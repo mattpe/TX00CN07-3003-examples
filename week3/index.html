@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout Basics</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      console.log('Hello from html head! Use separe js file instead!');
+    </script>
+    <!-- Best practise is to load and run scripts like below -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Layout Basics</h1>
+
+    <p id="output">
+     output element for printing
+    </p>
+
+    <section class="box-demo">
+      <h2>Box Model</h2>
+      <div class="box">This is a box.</div>
+      <div class="box">This is another box.</div>
+    </section>
+
+    <section>
+      <h2>Flexbox</h2>
+      <div class="flex-container">
+        <div class="card">
+          <img src="kurkkumopo.jpg" alt="description of image" />
+          <p>Some image.</p>
+        </div>
+        <div class="card">
+          <img src="kurkkumopo.jpg" alt="description of image" />
+          <p>Same image.</p>
+        </div>
+        <div class="card">Card 3 is only text.</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Grid</h2>
+      <div class="grid-container">
+        <div class="grid-item">Cell 1</div>
+        <div class="grid-item">Cell 2</div>
+        <div class="grid-item">Cell 3</div>
+        <div class="grid-item">Cell 4</div>
+        <div class="grid-item">Cell 5</div>
+        <div class="grid-item">Cell 6</div>
+        <div class="grid-item">Cell 7</div>
+        <div class="grid-item">Cell 8</div>
+        <div class="grid-item">Cell 9</div>
+        <div class="grid-item">Cell 10</div>
+      </div>
+    </section>
+    <script>
+      console.log('Hello webpage from body!');
+    </script>
+  </body>
+</html>

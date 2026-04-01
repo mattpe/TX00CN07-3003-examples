@@ -1,0 +1,79 @@
+/* This is a comment in CSS */
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#output {
+  color: red;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+  font-style: italic;
+}
+
+/* Basic box model */
+
+.box-demo {
+  margin: 20px;
+  border: 3px solid #3a0202;
+  padding: 10px;
+  background-color: rgb(61, 241, 241);
+  max-width: 800px;
+  width: 100%;
+  min-width: 200px;
+}
+
+.box {
+  margin: 10px;
+  border: 5px dashed green;
+  padding: 5px;
+  width: 70%;
+}
+
+/* Flexbox example styles */
+
+.flex-container {
+  display: flex;
+  gap: 10px;
+}
+
+ @media (max-width: 600px) {
+   .flex-container {
+     flex-direction: column;
+   }
+ }
+
+.card {
+  padding: 20px;
+  /* margin is "commented out" */
+  /* margin: 10px; */
+  background-color: peachpuff;
+  border: 1px solid #333;
+  width: 300px;
+}
+
+.card img {
+    width: 100%;
+}
+
+/* Grid example */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    gap: 5px;
+}
+
+.grid-item {
+    padding: 10px;
+    border: 3px solid black;
+    background-color: coral;
+    height: 5rem;
+}
