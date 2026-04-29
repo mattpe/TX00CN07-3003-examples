@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+header {
+  text-align: center;
+  margin: 0 0 1rem 0;
+  padding: 0.5rem;
+  background-color: lightblue;
+}
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+form {
+  margin-bottom: 20px;
+}
+#output-text {
+  font-weight: bold;
+  margin-top: 10px;
+}
+ul#list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+button#clear {
+  margin-top: 10px;
+}
+section#images {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+figure {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 330px;
+  border: 1px solid #ccc;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+footer {
+  text-align: center;
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
